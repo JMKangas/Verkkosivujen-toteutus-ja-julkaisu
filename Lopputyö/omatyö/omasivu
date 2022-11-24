@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Example code of grid</title>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="CSS/tyyli.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+      
+
+  </head>
+
+<body>
+    <div class="wrapper">
+
+    <div class="box a">
+
+      <div class="head">
+
+        <div class="logo">
+          <img src="Images/logo3.jpg" alt="yrityksen logo">
+        </div>
+        <h1 class="yritys"> Lomamatka Oy </h1>
+        <h1 class="elamys"> Elämysmatkoja kaikille </h1>
+
+        </div>
+        <!--
+        <div class="elamys head-font">
+          <h1> Elämysmatkoja kaikille </h1>
+      </div>
+      -->
+    </div>
+
+    </div>
+
+    <div class="box b">
+  
+      <nav>
+        <div class="navigointi">
+          <li class="linkit"><a href="index.html" style="color: black;"> Etusivu </a></li>
+          <li class="linkit"><a href="palvelut.html" style="color: black;"> Palvelut </a></li>
+          <li class="linkit"><a href="galleria.html" style="color: black;"> Galleria </a></li>
+          <li class="linkit"><a href="omasivu.html" style="color: black;"> Omat sivut </a></li>
+          <li class="linkit"><a href="yhteydenotto.html" style="color: black;"> Yhteydenotto </a></li>
+
+          <div class="nav-search">
+            <input id="address" type="text" onkeypress="handle(event)" placeholder="Kirjoita hakusana(t)">
+            <input id="search" type="button" value="Hae" onClick="search_func()">
+            
+            <script>
+            
+            function search_func(){
+              address=document.getElementById("address").value;
+              //write your specific code from here	
+              alert("You are searching: " + address);
+            }
+            
+            function handle(e){
+              address=document.getElementById("address").value;
+                if(e.keyCode === 13){
+                //write your specific code from here
+                  alert("You are searching: " + address);
+                }
+              return false;
+            }
+            
+            </script>
+          </div> 
+        </div>
+      </nav>
+
+    </div>
+
+<div class="box c">
+
+  <!--<div class="main">
+    
+    <div class="box4">-->
+
+      <div class="kirjautumisinfo"><h3> Syötä sähköposti ja salanasana kirjautuaksesi </h3></div>
+
+      <div class="kirjautumiskentta">
+          <label for="Sähköposti"> Sähköposti: </label><br>          <!-- Sähköposti kenttä -->
+          <input is="kauttaja" type="text" name="Sähköposti" placeholder="esimerkki@esim.fi" style="width: 300px;"><br><br>
+
+          <label for="Salasana"> Salasana: </label><br>                  <!-- Nimikenttä -->
+          <input id="sana" type="text" onkeypress="handle(event)" placeholder="*******" style="width: 300px;"><br>
+
+          
+            <input id="kirjaudu" type="button" value="Kirjaudu" onClick="myFunction()">
+            
+
+              <script>
+                  function myFunction() {
+                    alert("Väärä käyttäjätunnus tai salasana");
+                  }
+                  
+              </script>
+                 
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="box d">
+
+  <div class="footer">
+
+    <div class="box5">
+        <p class="footer-font">Copyright © 2021 Jani Kangas</p>
+    </div>
+  </div>
+    <div class="footer2">
+
+      <p class="social-font"> Seuraa meitä </p>
+
+      <div class="social-media">
+  
+     
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+      </div>
+
+    </div>
+
+</div>
+</div>
+</body>
+</html>

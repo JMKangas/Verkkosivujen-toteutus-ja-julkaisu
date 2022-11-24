@@ -1,0 +1,96 @@
+/* div box modeling */
+body
+{
+    background-color: rgb(250, 248, 246);
+}
+#headeri
+{
+    margin-left: 33.3em;
+}
+
+#box1
+{
+
+    background-color: rgb(153, 151, 150);
+    text-align: center;
+    font-size: 2em;
+}
+
+#box2
+{
+    display: inline-block;
+    margin: 2em;
+    margin-left: 10em;
+    width: fit-content;
+}
+
+#box3
+{
+    display: inline-block;
+    margin-left: 8.85em;
+    margin-right: auto;
+    float: none;
+    width:33em;
+    height: fit-content;
+    padding: 1em;
+    text-align: center;
+    border: solid 0.5em black;
+}
+
+#box4
+{
+    display: inline-block;
+    margin: 2em;
+    margin-right: 10em;
+    width:fit-content
+}
+
+#box5
+{
+    display: inline-block;
+    margin: 2em;
+    margin-left: 10em;
+    width: fit-content;
+    height: fit-content;
+}
+
+#box6
+{
+    display: inline-block;
+    margin: 2em;
+    margin-right: 10em;
+    width: 63em;
+    height: 8.3em;
+    border: solid 0.5em black;
+    text-align: center;
+    padding: 1em;
+}
+
+#box7
+{
+    display: inline-block;
+    margin: 2em;
+    margin-left: 10em;
+    width: 60em;
+    padding: 1em;
+    text-align: center;
+    border: solid 0.5em black;
+}
+
+#box8
+{
+    display: inline-block;
+    margin: 2em;
+    margin-right: 10em;
+    width:fit-content;
+}
+
+.FloatR
+{
+    float: right;
+}
+
+.FloatC
+{
+    float: Center;
+}

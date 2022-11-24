@@ -1,0 +1,111 @@
+
+body
+/* Muotoilu koodi tehtävälle */
+
+{
+    background-color:#f8f4f8;
+}
+
+/* Tekstin värit alkaa */
+.Lumi
+{
+    color: white; width: fit-content;
+}
+
+.Aurinko
+{
+    color: yellow; width: fit-content;
+}
+
+#Appelsiini
+{
+    color: orange; width: fit-content;
+}
+
+.Tuli
+{
+    color: orchid; width: fit-content;
+}
+/* Tekstin värit loppuu */
+
+/* Taustavärit alkaa */
+
+.Joulu
+{
+    background-color: red; width: fit-content;
+}
+
+.Meri
+{
+    background-color: blue; width: fit-content;
+}
+
+#Kulta
+{
+    background-color: gold; width: fit-content;
+}
+
+.Harmaa
+{
+    background-color: gray; width: fit-content;
+}
+
+.Gill
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.Apple
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+}
+
+.Lucida
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9em;
+}
+
+.Segoe
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    text-transform:capitalize;
+}
+
+.Franklin
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.Cambria
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    text-shadow: rgb(170, 170, 29) 6px 6px 0px;
+}
+
+.Verdana
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.15em;
+    text-transform: uppercase;
+}
+
+.Arial
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-shadow: 0px 4px 3px rgba(92, 5, 5, 0.4)
+}
+
+.Impact
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1em;
+    text-overflow: ellipsis;
+}

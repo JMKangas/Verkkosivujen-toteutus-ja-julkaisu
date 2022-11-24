@@ -1,0 +1,55 @@
+<html>
+    <head>
+
+        <title> Joukahaisen Vaellus Oy </title>
+        <meta charset="UTF-8">
+    </head>
+    <body> 
+        <h1> Vaellusreittivaraus </h1>
+            <h3> * merkityt ovat pakollisia </h3>
+
+                <form action="/action_page.html">
+
+                    <label for="Kokonimi"> Kokonimi*: </label><br>                  <!-- Nimikenttä -->
+                    <input type="text" id="koknimi" name="Kokonimi"><br>
+
+                        <label for="Sähköposti"> Sähköposti*: </label><br>          <!-- Sähköposti kenttä -->
+                        <input type="text" id="sposti" name="Sähköposti"><br>
+
+                            <label for="Puhelinro"> Puhelin*: </label><br>          <!-- Puhelin -->
+                            <input type="text" id="nro" name="Puhelinro"><br>
+
+                                <label for="reitti">Valitse vaellusreitti*</label><br>      <!-- Reittivalinnat -->
+                                <select id="vaellusreitit" name="reitti">
+                                <option value="Karhunkierros_pitkä"> Reitti 1 </option>
+                                <option value="Karhunkierros_lyhyt"> Reitti 2 </option>
+                                <option value="Poronkusema"> Reitti 3 </option>
+                                </select><br>
+
+                                        <label for="Lähtöpäivä"> Lähtöpäivä*: </label><br>  <!-- Lähtöpäiväkenttä -->
+                                        <input type="text" id="lähtöpvä" name="Lähtöpäivä"><br>
+
+                                    <label for="Henkilöt"> Kuinka monta henkilöä*: </label><br> <!-- Henkilömäärä -->
+                                    <input type="text" id="hlö" name="Henkilöt"><br>
+
+                                <p> Lisätoiveet: </p>
+                                <input type="checkbox" id="Haku" name="Haku">           <!-- Lisätoive valinnat-->
+                                <label for="hakutoive"> Haku hotellilta </label><br>
+                                <input type="checkbox" id="Ruokapakkaus" name="Ruoka">
+                                <label for="Ruoka"> Valmiit ruokapakkaukset </label><br>
+                                <input type="checkbox" id="Makuupakkaus" name="Makuu">
+                                <label for="Makuu"> Valmiit makuupakkaukset </label><br><br>
+
+                            <label for="Ale"> Alennuskoodi </label><br>             <!-- Mahdollinen alennuskoodi -->
+                            <input type="text" id="sposti" name="Ale"><br>
+
+                        <p> Olen lukenut ehdot&säännöt ja hyväksyn ne:* </p>        <!-- Käyttöehdot -->
+                        <input type="radio" id="Kyllä" name="Kyllä" value="Kyllä">
+                        <label for="Kyllä"> Kyllä </label>
+                        <input type="radio" id="Ei" name="Ei" value="Ei">
+                        <label for="Ei"> Ei </label><br><br>
+
+                    <input type="submit" value=" Lähetä varaus ">
+                </form>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Lomamatka Oy </title>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="CSS/tyyli.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+      
+      <script>
+            
+        function search_func(){
+          address=document.getElementById("address").value;
+          //ilmoitusviesti	
+          alert("You are searching: " + address);
+        }
+        
+        function handle(e){
+          address=document.getElementById("address").value;
+            if(e.keyCode === 13){
+
+              alert("You are searching: " + address);
+            }
+          return false;
+        }
+        
+        </script>
+        
+  </head>
+
+<body>
+    <div class="wrapper">
+
+    <div class="box a">
+
+      <div class="head">
+
+        <div class="logo">
+          <img src="Images/logo3.jpg" alt="yrityksen logo">
+        </div>
+        <h1 class="yritys"> Lomamatka Oy </h1>
+        <h1 class="elamys"> Elämysmatkoja kaikille </h1>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="box b">
+  
+      <nav>
+        <div class="navigointi">
+          <li class="linkit"><a href="index.html" style="color: black;"> Etusivu </a></li>
+          <li class="linkit"><a href="palvelut.html" style="color: black;"> Palvelut </a></li>
+          <li class="linkit"><a href="galleria.html" style="color: black;"> Galleria </a></li>
+          <li class="linkit"><a href="omasivu.html" style="color: black;"> Omat sivut </a></li>
+          <li class="linkit"><a href="yhteydenotto.html" style="color: black;"> Yhteydenotto </a></li>
+
+          <div class="nav-search">
+            <input id="address" type="text" onkeypress="handle(event)" placeholder="Kirjoita hakusana(t)">
+            <input id="search" type="button" value="Hae" onClick="search_func()">
+            
+          </div> 
+        </div>
+      </nav>
+
+    </div>
+
+<div class="box c">
+
+  <div class="main">
+    
+    <div class="box3 contentfont">
+      Voit ottaa meihin yhteyttä puhelimitse,<br> sähköpostilla tai täyttää yhteydenottopyynnön.
+
+      <br>
+      <address>
+        Lomamatka OY<br>
+        Yhteystiedot:<br>
+        +358441234567<br>
+        info@lomamatka.fi<br>
+        Kauppakatu 58, Tornio<br>
+        Suomi
+    </address>
+
+  </div>
+
+  <div class="yhteys">
+
+    <form action="index.html">
+
+      <label for="Kokonimi"> Kokonimi: </label><br>                  <!-- Nimikenttä -->
+      <input type="text" id="koknimi" name="Kokonimi" placeholder="Matti Meikälainen"><br>
+
+          <label for="Sähköposti"> Sähköposti: </label><br>          <!-- Sähköposti kenttä -->
+          <input type="text" id="sposti" name="Sähköposti" placeholder="esimerkki@esim.fi"><br>
+
+              <label for="Puhelinro"> Puhelin: </label><br>          <!-- Puhelin -->
+              <input type="text" id="nro" name="Puhelinro" placeholder="muodossa +358..."><br><br>
+            
+              <label for="subject">Aihe</label><br>
+              <textarea id="subject" name="subject" placeholder="Kirjoita aiheesta, josta haluat keskustella..." style="height:170px; width: 250px;" ></textarea><br>
+              <input type="submit" type="button" value="Submit">
+
+  </form>
+
+  </div>
+
+  </div>
+</div>
+
+<div class="box d">
+
+  <div class="footer">
+
+    <div class="box5">
+        <p class="footer-font">Copyright © 2021 Jani Kangas</p>
+    </div>
+  </div>
+    <div class="footer2">
+
+      <p class="social-font"> Seuraa meitä </p>
+
+      <div class="social-media">
+  
+     
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+      </div>
+
+    </div>
+
+</div>
+</div>
+</body>
+</html>

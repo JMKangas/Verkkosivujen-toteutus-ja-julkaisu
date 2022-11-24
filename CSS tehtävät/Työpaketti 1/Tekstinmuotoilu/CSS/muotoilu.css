@@ -1,0 +1,50 @@
+body
+/* Muotoilu koodi tehtävälle */
+
+{
+    background-color:#f8f4f8;
+}
+
+/* Tekstin värit alkaa */
+.Lumi
+{
+    color: white; width: fit-content;
+}
+
+.Aurinko
+{
+    color: yellow; width: fit-content;
+}
+
+#Appelsiini
+{
+    color: orange; width: fit-content;
+}
+
+.Tuli
+{
+    color: orchid; width: fit-content;
+}
+/* Tekstin värit loppuu */
+
+/* Taustavärit alkaa */
+
+.Joulu
+{
+    background-color: red; width: fit-content;
+}
+
+.Meri
+{
+    background-color: blue; width: fit-content;
+}
+
+#Kulta
+{
+    background-color: gold; width: fit-content;
+}
+
+.Harmaa
+{
+    background-color: gray; width: fit-content;
+}

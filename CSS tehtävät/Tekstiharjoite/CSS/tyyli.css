@@ -1,0 +1,10 @@
+body
+/* Eli tässä vaihdetaan taustaväri */
+{
+    background-color:#E9C8E7;
+}
+    .omavari
+{
+    color: blueviolet;
+    border: 2px solid black;
+}

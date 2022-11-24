@@ -1,0 +1,110 @@
+body
+
+/* Headerin muokkaus*/
+.head
+{
+    display: flex;
+    background-color: rgb(51, 51, 49);
+    border: solid 0.3em black;
+    padding: 2em;
+    text-align: center;
+}
+/* tekstien muokkaus*/
+.head1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.contentfont
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Navigointipalkki*/
+.navigointi
+{
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(181, 209, 181);
+    border: solid 0.3em black;
+}
+
+.navigointi a {
+
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 2em;
+
+}
+
+.navigointi :hover 
+{
+    background-color: teal;
+    font-weight: 800;
+}
+
+/* Pääsisällön muotoilu */
+
+.wrapper2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 10em;
+    padding-right: 5em;
+}
+
+.img
+{
+    height: 12em;
+    width: 18em;
+    object-fit: cover;
+}
+.box1
+{
+    flex: 1;
+    border-right: solid 0.1em black;
+    box-sizing: border-box;
+    padding: 3em;
+    width: 20em;
+
+}
+
+.kontti1
+{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 2em;
+}
+.kontti1:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footerin muotoilu */
+.footer
+{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 3em;
+    background-color: rgb(51, 51, 49);
+    border: solid 0.3em black;
+    padding: 2em;
+    text-align: center;
+}
+
+.box4
+{
+    flex: 1;
+
+}

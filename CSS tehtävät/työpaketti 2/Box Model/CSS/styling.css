@@ -1,0 +1,59 @@
+/* div box modeling */
+body
+
+#box1
+{
+    display: inline-block;
+    margin: 2em;
+    width: 50em;
+    background-color: coral;
+    border: solid 1em blue;
+}
+
+#box2
+{
+    display: inline-block;
+    margin: 2em;
+    width: 50em;
+    background-color: burlywood;
+    border: solid 1em blue;
+}
+
+#kuva1
+{   
+    width: 320px;
+    border: solid 0.8em gold;
+    margin: 1em;
+}
+
+#kuva2
+{   
+    width: 320px;
+    float: right;
+    margin-top: 12em;
+    margin-right: 1em;
+    border: solid 0.8em gold;
+}
+
+#kuva3
+{   
+    width: 320px;
+    border: solid 0.8em goldenrod;
+    margin: 1em;
+}
+
+#kuva4
+{   
+    width: 320px;
+    float: right;
+    margin-top: 5em;
+    margin-right: 1em;
+    border: solid 0.8em goldenrod;
+}
+
+/* headerin muokkaus */
+
+#headeri
+{
+    margin-left: 32.5em;
+}
